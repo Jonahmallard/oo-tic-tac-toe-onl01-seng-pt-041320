@@ -1,12 +1,12 @@
 class TicTacToe
-  attr_accessor :cells
+  attr_accessor :board
   
   def initialize
     reset!
   end 
   
   def reset!
-    @cells = Array.new(9, " ")
+    @board = Array.new(9, " ")
   end 
   
 end
