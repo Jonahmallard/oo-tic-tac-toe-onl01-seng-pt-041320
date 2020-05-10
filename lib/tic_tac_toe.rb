@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+=begin
 def play 
   until over?
     turn 
@@ -10,3 +24,4 @@ def play
       end 
     end 
 end
+=end
